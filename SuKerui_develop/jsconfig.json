@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+        "@/*": ["src/*"]
+    },
+    "jsx": "preserve",	//在这里添加"jsx": "preserve",
+  },
+  "exclude": ["node_modules", "dist"]
+}
